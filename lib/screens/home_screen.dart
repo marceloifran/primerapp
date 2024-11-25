@@ -24,7 +24,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       backgroundColor: _colors[_selectedIndex],
       appBar: AppBar(
-        title: const Text('Colorful Navigation Example'),
+        title: const Text('Navigation'),
         backgroundColor: _colors[_selectedIndex],
       ),
       body: _pages[_selectedIndex],
